@@ -1,5 +1,6 @@
 * {
     font-family: 'Garamond', 'Times New Roman', sans-serif;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -21,4 +22,25 @@ p {
 
 li {
     font-size: 20px;
+}
+
+
+.title {
+    
+    text-align: center;
+    border: 5px black solid;
+}
+
+.list{
+    border: 2px rgb(161, 20, 20) dashed;
+    width: fit-content;
+    padding-right: 40px;
+}
+
+.item {
+    margin: 8px 0;
+    background: local;
+    background-color: rgb(255, 142, 114);
+    width: fit-content;
+    padding: 0 12px;
 }
